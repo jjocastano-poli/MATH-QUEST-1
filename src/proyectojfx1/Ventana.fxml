@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectojfx1.VentanaController">
+   <children>
+      <ImageView fitHeight="502.0" fitWidth="600.0" opacity="0.71" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="@../../img/fondo.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="51.0" layoutY="97.0" prefHeight="50.0" prefWidth="174.0" style="-fx-background-color: black;">
+         <children>
+            <TextArea layoutX="14.0" layoutY="6.0" prefHeight="25.0" prefWidth="119.0" promptText="Jugador" />
+         </children>
+      </Pane>
+      <Pane layoutX="51.0" layoutY="172.0" prefHeight="50.0" prefWidth="174.0" style="-fx-background-color: black;">
+         <children>
+            <TextArea layoutX="14.0" layoutY="6.0" prefHeight="25.0" prefWidth="119.0" promptText="Contraseña" />
+         </children>
+      </Pane>
+      <Pane layoutX="51.0" layoutY="257.0" prefHeight="50.0" prefWidth="174.0" style="-fx-background-color: black;">
+         <children>
+            <TextArea layoutX="12.0" layoutY="6.0" prefHeight="25.0" prefWidth="119.0" promptText="Dificultad" />
+         </children>
+      </Pane>
+      <MenuButton layoutX="300.0" layoutY="263.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="90.0" text="Facil">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Facil" />
+          <MenuItem mnemonicParsing="false" text="Intermedio" />
+        </items>
+      </MenuButton>
+      <TextArea layoutX="278.0" layoutY="177.0" prefHeight="17.0" prefWidth="150.0" />
+      <TextArea layoutX="278.0" layoutY="102.0" prefHeight="17.0" prefWidth="150.0" />
+      <TextField layoutX="204.0" layoutY="40.0" prefHeight="34.0" prefWidth="135.0" text="MATH QUEST">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
